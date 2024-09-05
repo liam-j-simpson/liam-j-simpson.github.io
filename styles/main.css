@@ -27,8 +27,7 @@ body {
 }
 
 .container {
-  padding: 0rem 2rem 0rem 2rem;
-  margin: 2rem 0rem 4rem 0rem;
+  padding: 2rem 2rem 2rem 2rem;
 }
 
 .sprint-list {
@@ -70,6 +69,7 @@ h3 {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 0.75rem;
+  line-height: 0.3rem;
 }
 
 h4 {
@@ -78,6 +78,7 @@ h4 {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 0.5rem;
+  line-height: 0.3rem;
 }
 
 p {
@@ -86,31 +87,9 @@ p {
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
   font-size: 0.5rem;
+  line-height: 0.3rem;
 }
 
 hr.home {
   border: 0.5px solid #645d22;
 }
-
-/*
-
-.col-left {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  gap: 0.5em;
-}
-
-.col-right {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-content: stretch;
-  gap: 0.5em;
-}
-
-.row {
-  flex: 1;
-  border-radius: 1.5em;
-  background-color: #87a2b3;
-} */
