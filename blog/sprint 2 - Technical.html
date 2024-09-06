@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en" style="font-size: 20px">
+  <head>
+    <title>Sprint 2 - Technical (Relative, Absolute & Fixed Positioning)</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="../styles/main.css" type="text/css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=SUSE:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <navbar>
+      <ul class="nav-list">
+        <li class="nav-item">
+          <h1><a href="/index.html">Liam Simpson</a></h1>
+        </li>
+        <li class="nav-item">
+          <h3><a href="/index.html">Sprints</a></h3>
+        </li>
+        <li class="nav-item">
+          <h3><a href="/about.html">About</a></h3>
+        </li>
+      </ul>
+    </navbar>
+
+    <main>
+      <section class="container">
+        <h1>Sprint 2 - Technical</h1>
+        <h2>Relative, Absolute & Fixed Positioning explained.</h2>
+        <h3>6 September 2024</h3>
+
+        <p>
+          Relative, Absolute and Fixed positioning gives programmers the
+          flexibility to place elements exactly where they'd like them on the
+          page. I'm going to explain these positining systems using the analogy
+          of a carpark.
+        </p>
+
+        <br />
+
+        <h3 style="color: rgb(137, 174, 41)">Relative Positioning</h3>
+
+        <p style="color: rgb(137, 174, 41)">
+          Relative positioning allows the position of an element to be changed
+          from it's origin while still holding space at its origin point. It's
+          as if a car was parked in it's designated carpark but now we've moved
+          that car three parks to the right. No one is going to park in the
+          designated carpark and therefore, that space remains empty. Refer to
+          the code below for the green square's relative position.
+          <br />
+
+          <img
+            src="/assets/Sprint 2 - Blog Assets/green-square-positioning.png"
+            alt="green square positioning code"
+          />
+        </p>
+
+        <div
+          style="
+            background-color: rgb(137, 174, 41);
+            width: 100px;
+            height: 100px;
+            position: relative;
+            left: 200px;
+            opacity: 70%;
+          "
+        >
+          <p
+            style="
+              color: white;
+              margin: 5px;
+              font-size: 0.4rem;
+              margin: 5px;
+              line-height: 0.6rem;
+            "
+          >
+            Relative, 200px left from origin.
+          </p>
+        </div>
+
+        <br />
+        <h3 style="color: rgb(66, 87, 112)">Absolute Positioning</h3>
+        <p style="color: rgb(66, 87, 112)">
+          Absolute positioning allows the element to be placed exactly where
+          specified, regardless of other elements on the page. This is like a
+          car that decides to park wherever it wants, regardless of the rules.
+          It doesn't have to fit within the painted lines, it just goes where it
+          wants. Refer to the code below for the blue square's position.
+          <br />
+          <img
+            src="/assets/Sprint 2 - Blog Assets/blue-square-positioning.png"
+            alt="blue square positioning code"
+          />
+        </p>
+        <div
+          style="
+            background-color: rgb(66, 87, 112);
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            right: 200px;
+            top: 400px;
+            opacity: 70%;
+          "
+        >
+          <p
+            style="
+              color: white;
+              margin: 5px;
+              font-size: 0.4rem;
+              line-height: 0.6rem;
+            "
+          >
+            Absolute 200px from right, 400px from top.
+          </p>
+        </div>
+
+        <br />
+        <h3 style="color: rgb(187, 113, 44)">Fixed Positioning</h3>
+        <p style="color: rgb(187, 113, 44)">
+          Fixed positioning defines the position of an element relative to the
+          viewport. Say we're flying a drone above the carpark and our car is
+          positioned in the top left corner of our viewport. If we now move our
+          drone to looking at a different carpark the car with fixed positioning
+          will move with us and will stay fixed in the top left corner of our
+          viewport. Refer to the code below for the brown square's position.
+          <br />
+          <img
+            src="/assets/Sprint 2 - Blog Assets/brown-square-positioning.png"
+            alt="brown square positioning code"
+          />
+        </p>
+
+        <div
+          style="
+            background-color: rgb(187, 113, 44);
+            width: 100px;
+            height: 100px;
+            position: fixed;
+            top: 200px;
+            right: 200px;
+            opacity: 70%;
+          "
+        >
+          <p
+            style="
+              color: white;
+              margin: 5px;
+              font-size: 0.4rem;
+              line-height: 0.6rem;
+            "
+          >
+            Fixed 200px from top, 200px from right.
+          </p>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div>
+        <hr class="home" />
+        <h4>Liam Simpson</h4>
+        <p>Mt Maunganui, New Zealand</p>
+      </div>
+    </footer>
+  </body>
+</html>
