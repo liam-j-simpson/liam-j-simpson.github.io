@@ -54,7 +54,7 @@ footer {
 
 h1 {
   color: #645d22;
-  margin: 0.5rem 0 0.5rem 0;
+  margin-bottom: 0.5rem;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 2.5rem;
@@ -63,7 +63,7 @@ h1 {
 
 h2 {
   color: #645d22;
-  margin: 0.5rem 0 0.5rem 0;
+  margin-bottom: 0.5rem;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 1.5rem;
@@ -72,16 +72,16 @@ h2 {
 
 h3 {
   color: #645d22;
-  margin: 0.2rem 0 0.2rem 0;
+  margin-bottom: 0.5rem;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 1rem;
-  line-height: 1.5rem;
+  line-height: 1.4rem;
 }
 
 h4 {
   color: #645d22;
-  margin: 0.5rem 0 0.5rem 0;
+  margin-bottom: 0.5rem;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 0.8rem;
@@ -90,7 +90,16 @@ h4 {
 
 p {
   color: #645d22;
-  margin: 0.2rem 0 0.2rem 0;
+  margin-bottom: 0.5rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 0.8rem;
+  line-height: 1.2rem;
+}
+
+li {
+  color: #645d22;
+  margin-bottom: 2rem;
   font-family: 'Poppins', sans-serif;
   font-weight: 300;
   font-size: 0.8rem;
