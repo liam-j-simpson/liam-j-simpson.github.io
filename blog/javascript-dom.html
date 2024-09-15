@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/styles/main.css" rel="stylesheet" type="text/css" />
+    <title>HTML Template</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=SUSE:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body></body>
+</html>
+
+<navbar>
+  <ul class="nav-list">
+    <li class="nav-item">
+      <h1><a href="/index.html">Liam Simpson</a></h1>
+    </li>
+    <li class="nav-item">
+      <h3><a href="/index.html">Sprints</a></h3>
+    </li>
+    <li class="nav-item">
+      <h3><a href="/about.html">About</a></h3>
+    </li>
+  </ul>
+</navbar>
+
+<main>
+  <section class="container">
+    <h1>JS Fundamentals</h1>
+    <h3>JavaScript and its relationship to HTML and CSS</h3>
+    <p>
+      It’s week 3 of the DevAcademy foundations course and we’ve taken a dive
+      into the world of JavaScript. In the following paragraphs I’m going to
+      explain what JavaScript is, and the fundamentals we’ve learnt so far.
+    </p>
+    <p>
+      JavaScript is a programming language that works in relationship with HTML
+      and CSS. To explain this relationship I’m going to use the analogy of a
+      Bicycle.
+    </p>
+
+    <p>
+      In order for a Bicycle to be built there needs to be a blueprint showing
+      the parts list and the structure of how these parts are put together
+      (HTML). These parts aren’t all the same! They each have their own unique
+      attributes that allow them to do a specific job or have a particular
+      aesthetic (CSS). These attributes could be the paint colour, the parts
+      material or it’s size. Once we’ve assembled the bike, there has to be a
+      form of interaction between these parts for the bike to move (JavaScript).
+    </p>
+    <p>
+      As illustrated above, HTML provides the elements of a website and the
+      structure of the page. CSS gives unique attributes and styling to each of
+      these elements. JavaScript determines how these elements interact with
+      each other and what causes them to interact (the trigger).
+    </p>
+
+    <p>
+      Now that we have an illustration of Javascipts relationship with HTML and
+      CSS I’ll go further into the details of the Javascript fundamentals we’ve
+      learnt this week.
+    </p>
+    <h3>Control flow and loops</h3>
+    <p>
+      Imagine you’re going to the supermarket to buy groceries for cooking a
+      late night cook up. There’s several steps that need to occur for this to
+      happen:
+    </p>
+    <ol>
+      <li>Write a shopping list.</li>
+      <li>Get in the car.</li>
+      <li>Drive to the supermarket.</li>
+      <li>Walk through the supermarket picking up the needed ingredients.</li>
+      <li>Go to the check-out and purchase the ingredients.</li>
+      <li>Drive home.</li>
+      <li>Get cooking.</li>
+    </ol>
+    <p>
+      These steps can’t be completed out of order. We can’t check-out before
+      selecting our products and we can’t make our meal before driving home.
+      There’s a set order for these steps to be followed and if this order isn’t
+      followed we won’t be able to make our glorious meal.
+    </p>
+    <p>
+      This order is called the control flow. When Javascript files are read
+      they’re read from the first line to the last line in sequential order.
+      There are however, some structures that change the control flow. Loops are
+      a structure that changes the control flow. Lets continue using the example
+      of a supermarket to illustrate loops.
+    </p>
+    <p>When you arrive at the checkout the cashier performs a loop. They:</p>
+    <ol>
+      <li>Grab the nearest product on the conveyor belt.</li>
+      <li>Scan the product.</li>
+      <li>Place the product in a paper bag.</li>
+    </ol>
+    <p>
+      And they continue to do this loop until they reach the total number of
+      products selected. This loop would be presented in code like:
+    </p>
+
+    <p class="code-block">
+      for(i = 0; i < productOrder.length; i++)
+      <br />{ grab product <br />scan product <br />place product in bag}
+    </p>
+
+    <p>
+      Once the loop is completed, the cashier is able to move on to the next
+      steps of their code:
+      <ol>
+        <li>Saying would you like a receipt? (Good example of a
+          boolean)</li>
+        <li>Saying thank-you, have a nice day.</li>
+      </ol>
+    </p>
+    <h3>The DOM</h3>
+    <p>
+      HTML, CSS and JS are held together by the Document Object Model (DOM). The
+      DOM creates a tree view of the objects that represent our entire html
+      document. These objects are known as nodes and can be anything from a div
+      or head tag through to CSS .classes and #IDs. As we know, JavaScript is an
+      object based language and these objects in the node tree are exactly that,
+      JavaScript objects! The DOM is in fact an exact replica of our HTML
+      document but in JavaScript.
+    </p>
+    <p>
+      Because the DOM gives us access to every part of our HTML document through
+      the use of JS objects, we have the ability to create, change or remove
+      objects or properties, pretty awesome! So if we wanted to add a new
+      property to a JS object we could do this through finding the object with a
+      query and then manipulating it by assigning a new value.
+    </p>
+    <h3>Arrays & Objects</h3>
+    <p>
+      In JavaScript Arrays and Objects are used to store data. Objects store
+      data within ‘keys’ (which basically look like sub-headings below the
+      object title) while Arrays store data that’s indexed inline, numbering
+      from 0 upwards. Below is an example of an array and an object.
+    </p>
+    <p>
+      Because these two methods store data in a completely different way, they
+      access it in a completely different way too. When grabbing data from an
+      object we use the object.key notation which is really quite logical. From
+      there we can use the data, modify it or remove it.
+    </p>
+    <p>
+      An array is slightly different as data is stored in an index numbering
+      from 0. When we want to access the data from an array we use the
+      arrayname[0] notation (within the square brackets we enter the number
+      index we want). From there we can manipulate the data, remove it and use
+      it.
+    </p>
+    <h3>Functions</h3>
+    <p>
+      Functions are made up of multiple lines of code and are created to perform
+      a particular task. They are triggered either automatically (on page load)
+      or through an event (such as a button click).
+    </p>
+    <p>Functions have three key areas to their syntax/ structure.</p>
+    <ol>
+      <li>
+        The first line uses the function keyword followed by a unique name and
+        then parameters (if applicable) within round brackets.
+      </li>
+
+      <li>
+        Within the curly brackets the actionable lines of code are written (what
+        the function actually does).
+      </li>
+
+      <li>
+        Outside of the curly brackets the function is called using it’s name and
+        the standard brackets. Within these brackets arguments can be written,
+        these arguments are passed into the function.
+      </li>
+    </ol>
+    <p>
+      Functions are helpful because they are repeatable, meaning you can use a
+      function multiple times throughout a project without having to rewrite the
+      code. The outcome of a function can change depending on the arguments
+      written within the brackets when the function is called. This means that
+      there can be multiple different outcomes of the same function, giving them
+      even more flexibility and repeatability.
+    </p>
+  </section>
+</main>

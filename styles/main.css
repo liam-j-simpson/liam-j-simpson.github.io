@@ -110,6 +110,17 @@ hr.home {
   border: 0.5px solid #645d22;
 }
 
+.code-block {
+  background-color: grey;
+  border-color: yellow;
+  border-width: 1rem;
+  margin: 1rem;
+  padding: 1rem;
+  border: 1rem;
+  color: white;
+  font-family: 'Courier New', Courier, monospace;
+}
+
 /* Tablet */
 @media (width < 768px) {
   h1 {
