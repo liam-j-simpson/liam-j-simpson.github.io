@@ -56,7 +56,7 @@ h1 {
   color: #645d22;
   margin-bottom: 0.5rem;
   font-family: 'Poppins', sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 3rem;
   line-height: 3.5rem;
 }
@@ -65,7 +65,7 @@ h2 {
   color: #645d22;
   margin-bottom: 0.5rem;
   font-family: 'Poppins', sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 2rem;
   line-height: 2.3rem;
 }
@@ -74,7 +74,7 @@ h3 {
   color: #645d22;
   margin-bottom: 0.5rem;
   font-family: 'Poppins', sans-serif;
-  font-weight: 400;
+  font-weight: 500;
   font-size: 1.5rem;
   line-height: 1.8rem;
 }
@@ -83,7 +83,7 @@ h4 {
   color: #645d22;
   margin-bottom: 0.5rem;
   font-family: 'Poppins', sans-serif;
-  font-weight: 400;
+  font-weight: 450;
   font-size: 1rem;
   line-height: 1.3rem;
 }
@@ -119,6 +119,20 @@ hr.home {
   border: 1rem;
   color: white;
   font-family: 'Courier New', Courier, monospace;
+}
+
+.cotent-table {
+  margin: 25px 25px;
+}
+
+.content-table thead {
+  text-align: left;
+  border: 1px solid black;
+}
+.content-table tbody {
+  text-align: left;
+  border: 1px solid black;
+  padding: 30px;
 }
 
 /* Tablet */
