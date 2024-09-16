@@ -121,18 +121,12 @@ hr.home {
   font-family: 'Courier New', Courier, monospace;
 }
 
-.cotent-table {
-  margin: 25px 25px;
+.content-table {
+  text-align: left;
 }
 
-.content-table thead {
-  text-align: left;
-  border: 1px solid black;
-}
-.content-table tbody {
-  text-align: left;
-  border: 1px solid black;
-  padding: 30px;
+th {
+  border: 1px solid #645d22;
 }
 
 /* Tablet */
